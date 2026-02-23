@@ -3,63 +3,64 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portafolio de Proyectos Luminosos</title>
+<title>Portafolio Técnico - Proyectos Luminosos</title>
 
 <style>
 body {
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: #0f172a;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b1120;
+    color: #e5e7eb;
 }
 
 header {
-    background: linear-gradient(90deg, #0d47a1, #1976d2);
-    padding: 20px;
+    padding: 40px 20px;
     text-align: center;
+    background: #111827;
+    border-bottom: 1px solid #1f2937;
 }
 
 header h1 {
     margin: 0;
-    font-size: 22px;
+    font-size: 26px;
+    letter-spacing: 1px;
 }
 
 header p {
-    margin-top: 5px;
-    font-size: 13px;
-    color: #cbd5e1;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #9ca3af;
 }
 
 .contenedor {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 25px;
-    padding: 30px;
-    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+    padding: 50px 40px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .card {
-    background: #1e293b;
-    border-radius: 15px;
-    padding: 15px;
-    width: 100%;
-    max-width: 260px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-    transition: 0.3s;
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 14px;
+    padding: 20px;
     text-align: center;
+    transition: 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    border-color: #2563eb;
+    transform: translateY(-6px);
 }
 
-/* PROPORCIÓN VERTICAL 9:16 */
 .video-wrapper {
     position: relative;
     width: 100%;
     aspect-ratio: 9 / 16;
     background: black;
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -69,14 +70,24 @@ header p {
 }
 
 .card h2 {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #38bdf8;
+    margin-top: 18px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 .card p {
+    font-size: 13px;
+    color: #9ca3af;
+    margin-top: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
     font-size: 12px;
-    color: #cbd5e1;
+    color: #6b7280;
+    border-top: 1px solid #1f2937;
 }
 </style>
 </head>
@@ -84,8 +95,8 @@ header p {
 <body>
 
 <header>
-    <h1>Portafolio de Proyectos Luminosos</h1>
-    <p>Visualización real de shows implementados en postes luminosos</p>
+    <h1>PORTAFOLIO DE PROYECTOS LUMINOSOS</h1>
+    <p>Visualización técnica de shows implementados en postes LED programables</p>
 </header>
 
 <div class="contenedor">
@@ -94,33 +105,36 @@ header p {
     <div class="card">
         <div class="video-wrapper">
             <iframe 
-                src="https://www.youtube.com/embed/B_4XJsanIrw"
+                src="https://www.youtube-nocookie.com/embed/B_4XJsanIrw?rel=0&modestbranding=1"
                 title="Ciclon Meteorito"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
         </div>
-        <h2>Show 1 - Ciclon Meteorito</h2>
-        <p>Visualización real del efecto luminoso.</p>
+        <h2>SHOW 01 · CICLÓN METEORITO</h2>
+        <p>Secuencia dinámica LED RGB programada para estructuras verticales.</p>
     </div>
 
-    <!-- ESPACIO PARA LOS OTROS 22 SHOWS -->
+    <!-- COPIA ESTE BLOQUE PARA LOS OTROS 22 SHOWS -->
     <!--
     <div class="card">
         <div class="video-wrapper">
             <iframe 
-                src="https://www.youtube.com/embed/ID_DEL_VIDEO"
+                src="https://www.youtube-nocookie.com/embed/ID_DEL_VIDEO?rel=0&modestbranding=1"
                 frameborder="0"
                 allowfullscreen>
             </iframe>
         </div>
-        <h2>Show 2 - Nombre del Show</h2>
-        <p>Descripción breve.</p>
+        <h2>SHOW 02 · NOMBRE DEL SHOW</h2>
+        <p>Descripción técnica breve del efecto.</p>
     </div>
     -->
 
 </div>
+
+<footer>
+    © 2025 Portafolio Técnico · Proyectos Luminosos LED
+</footer>
 
 </body>
 </html>
